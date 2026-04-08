@@ -1,694 +1,712 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <meta name="description" content="Privacy Policy for Anime Multiverse RNG Discord Bot - Learn how we protect your data"> <meta name="keywords" content="privacy policy, discord bot, anime multiverse, data protection"> <meta name="author" content="Anime Multiverse RNG Team"> <meta name="robots" content="index, follow">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Privacy Policy - Anime Multiverse RNG">
-<meta property="og:description" content="Privacy Policy for Anime Multiverse RNG Discord Bot">
+Voici le code HTML complet avec la correction :
 
-<title>Privacy Policy - Anime Multiverse RNG</title>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for Anime Multiverse RNG Discord Bot - Learn how we protect your data">
+    <meta name="keywords" content="privacy policy, discord bot, anime multiverse, data protection">
+    <meta name="author" content="Anime Multiverse RNG Team">
+    <meta name="robots" content="index, follow">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Privacy Policy - Anime Multiverse RNG">
+    <meta property="og:description" content="Privacy Policy for Anime Multiverse RNG Discord Bot">
 
-<style>
-    :root {
-        --primary: #FF0066;
-        --secondary: #00D9FF;
-        --accent: #FFD700;
-        --dark: #0A0E27;
-        --darker: #05070F;
-        --light: #ffffff;
-        --gray: #8892B0;
-    }
+    <title>Privacy Policy - Anime Multiverse RNG</title>
 
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-    body {
-        font-family: 'Poppins', sans-serif;
-        background: var(--darker);
-        color: var(--light);
-        overflow-x: hidden;
-    }
-
-    /* Animated Background */
-    .anime-bg {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 0;
-        background: linear-gradient(135deg, #0A0E27 0%, #1a1a2e 50%, #16213e 100%);
-    }
-
-    .anime-bg::before {
-        content: "";
-        position: absolute;
-        width: 200%;
-        height: 200%;
-        background-image: 
-            radial-gradient(circle, rgba(255, 0, 102, 0.15) 1px, transparent 1px),
-            radial-gradient(circle, rgba(0, 217, 255, 0.15) 1px, transparent 1px);
-        background-size: 50px 50px, 80px 80px;
-        background-position: 0 0, 40px 40px;
-        animation: bgScroll 60s linear infinite;
-    }
-
-    @keyframes bgScroll {
-        0% { transform: translate(0, 0); }
-        100% { transform: translate(50px, 50px); }
-    }
-
-    /* Floating particles */
-    .particles {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        pointer-events: none;
-    }
-
-    .particle {
-        position: absolute;
-        width: 4px;
-        height: 4px;
-        background: var(--accent);
-        border-radius: 50%;
-        opacity: 0.6;
-        animation: float 15s infinite;
-    }
-
-    @keyframes float {
-        0%, 100% { transform: translateY(0) translateX(0); opacity: 0; }
-        10% { opacity: 0.6; }
-        90% { opacity: 0.6; }
-        100% { transform: translateY(-100vh) translateX(50px); opacity: 0; }
-    }
-
-    /* Container */
-    .container {
-        position: relative;
-        z-index: 2;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 20px;
-    }
-
-    /* Header with manga style */
-    .hero {
-        position: relative;
-        text-align: center;
-        padding: 100px 20px;
-        margin-bottom: 50px;
-        overflow: hidden;
-    }
-
-    .hero::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 150%;
-        height: 100%;
-        background: radial-gradient(ellipse at center, rgba(255, 0, 102, 0.2) 0%, transparent 70%);
-        animation: pulse 4s ease-in-out infinite;
-    }
-
-    @keyframes pulse {
-        0%, 100% { transform: translateX(-50%) scale(1); opacity: 0.5; }
-        50% { transform: translateX(-50%) scale(1.1); opacity: 0.8; }
-    }
-
-    .hero-content {
-        position: relative;
-        z-index: 1;
-    }
-
-    .hero h1 {
-        font-family: 'Bangers', cursive;
-        font-size: 5em;
-        color: var(--light);
-        text-transform: uppercase;
-        letter-spacing: 8px;
-        margin-bottom: 20px;
-        text-shadow: 
-            4px 4px 0px var(--primary),
-            8px 8px 0px rgba(255, 0, 102, 0.3),
-            0 0 30px var(--primary),
-            0 0 60px var(--primary);
-        animation: textGlow 3s ease-in-out infinite alternate;
-    }
-
-    @keyframes textGlow {
-        from { text-shadow: 
-            4px 4px 0px var(--primary),
-            8px 8px 0px rgba(255, 0, 102, 0.3),
-            0 0 30px var(--primary);
+    <style>
+        :root {
+            --primary: #FF0066;
+            --secondary: #00D9FF;
+            --accent: #FFD700;
+            --dark: #0A0E27;
+            --darker: #05070F;
+            --light: #ffffff;
+            --gray: #8892B0;
         }
-        to { text-shadow: 
-            4px 4px 0px var(--secondary),
-            8px 8px 0px rgba(0, 217, 255, 0.3),
-            0 0 40px var(--secondary),
-            0 0 80px var(--secondary);
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-    }
 
-    .subtitle {
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 2em;
-        background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 50%, var(--accent) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        letter-spacing: 4px;
-        margin-bottom: 20px;
-    }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--darker);
+            color: var(--light);
+            overflow-x: hidden;
+        }
 
-    .badge {
-        display: inline-block;
-        padding: 10px 30px;
-        background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-        border: 3px solid var(--accent);
-        border-radius: 50px;
-        font-weight: 700;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-        font-size: 0.9em;
-        box-shadow: 0 0 20px rgba(255, 0, 102, 0.5);
-        animation: badgePulse 2s ease-in-out infinite;
-    }
+        /* Animated Background */
+        .anime-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            background: linear-gradient(135deg, #0A0E27 0%, #1a1a2e 50%, #16213e 100%);
+        }
 
-    @keyframes badgePulse {
-        0%, 100% { transform: scale(1); box-shadow: 0 0 20px rgba(255, 0, 102, 0.5); }
-        50% { transform: scale(1.05); box-shadow: 0 0 30px rgba(255, 0, 102, 0.8); }
-    }
+        .anime-bg::before {
+            content: "";
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background-image: 
+                radial-gradient(circle, rgba(255, 0, 102, 0.15) 1px, transparent 1px),
+                radial-gradient(circle, rgba(0, 217, 255, 0.15) 1px, transparent 1px);
+            background-size: 50px 50px, 80px 80px;
+            background-position: 0 0, 40px 40px;
+            animation: bgScroll 60s linear infinite;
+        }
 
-    /* Comic book style panels */
-    .content-wrapper {
-        display: grid;
-        gap: 40px;
-        margin-bottom: 50px;
-    }
+        @keyframes bgScroll {
+            0% { transform: translate(0, 0); }
+            100% { transform: translate(50px, 50px); }
+        }
 
-    .panel {
-        background: linear-gradient(135deg, rgba(26, 26, 46, 0.9) 0%, rgba(10, 14, 39, 0.9) 100%);
-        border: 3px solid var(--primary);
-        border-radius: 20px;
-        padding: 40px;
-        position: relative;
-        overflow: hidden;
-        backdrop-filter: blur(10px);
-        box-shadow: 
-            0 10px 40px rgba(0, 0, 0, 0.5),
-            0 0 0 1px rgba(255, 0, 102, 0.2),
-            inset 0 0 20px rgba(255, 0, 102, 0.05);
-        transition: all 0.3s ease;
-    }
+        /* Floating particles */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            pointer-events: none;
+        }
 
-    .panel:hover {
-        transform: translateY(-5px);
-        border-color: var(--secondary);
-        box-shadow: 
-            0 15px 50px rgba(0, 0, 0, 0.7),
-            0 0 30px rgba(0, 217, 255, 0.3);
-    }
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: var(--accent);
+            border-radius: 50%;
+            opacity: 0.6;
+            animation: float 15s infinite;
+        }
 
-    .panel::before {
-        content: "";
-        position: absolute;
-        top: -2px;
-        left: -2px;
-        right: -2px;
-        bottom: -2px;
-        background: linear-gradient(45deg, var(--primary), var(--secondary), var(--accent));
-        z-index: -1;
-        opacity: 0;
-        transition: opacity 0.3s;
-        border-radius: 20px;
-    }
+        @keyframes float {
+            0%, 100% { transform: translateY(0) translateX(0); opacity: 0; }
+            10% { opacity: 0.6; }
+            90% { opacity: 0.6; }
+            100% { transform: translateY(-100vh) translateX(50px); opacity: 0; }
+        }
 
-    .panel:hover::before {
-        opacity: 0.2;
-    }
+        /* Container */
+        .container {
+            position: relative;
+            z-index: 2;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-    /* Speed lines effect */
-    .panel::after {
-        content: "";
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        width: 200%;
-        height: 200%;
-        background: repeating-linear-gradient(
-            0deg,
-            transparent,
-            transparent 10px,
-            rgba(255, 255, 255, 0.03) 10px,
-            rgba(255, 255, 255, 0.03) 11px
-        );
-        transform: translate(-50%, -50%);
-        pointer-events: none;
-    }
+        /* Header with manga style */
+        .hero {
+            position: relative;
+            text-align: center;
+            padding: 100px 20px;
+            margin-bottom: 50px;
+            overflow: hidden;
+        }
 
-    .panel-number {
-        position: absolute;
-        top: -25px;
-        left: 30px;
-        width: 60px;
-        height: 60px;
-        background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-        border: 4px solid var(--accent);
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-family: 'Bangers', cursive;
-        font-size: 2em;
-        color: var(--light);
-        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-        z-index: 1;
-    }
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 150%;
+            height: 100%;
+            background: radial-gradient(ellipse at center, rgba(255, 0, 102, 0.2) 0%, transparent 70%);
+            animation: pulse 4s ease-in-out infinite;
+        }
 
-    .panel h2 {
-        font-family: 'Bebas Neue', sans-serif;
-        font-size: 2.5em;
-        color: var(--accent);
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        margin-bottom: 20px;
-        margin-top: 10px;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    }
+        @keyframes pulse {
+            0%, 100% { transform: translateX(-50%) scale(1); opacity: 0.5; }
+            50% { transform: translateX(-50%) scale(1.1); opacity: 0.8; }
+        }
 
-    .panel p {
-        font-size: 1.1em;
-        color: var(--gray);
-        line-height: 1.8;
-        margin-bottom: 15px;
-    }
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
 
-    .panel ul {
-        list-style: none;
-        padding: 0;
-        margin: 20px 0;
-    }
-
-    .panel ul li {
-        padding: 15px 15px 15px 45px;
-        margin: 10px 0;
-        background: rgba(255, 0, 102, 0.1);
-        border-left: 4px solid var(--primary);
-        border-radius: 8px;
-        position: relative;
-        transition: all 0.3s ease;
-        color: var(--light);
-    }
-
-    .panel ul li:hover {
-        background: rgba(0, 217, 255, 0.1);
-        border-left-color: var(--secondary);
-        transform: translateX(10px);
-    }
-
-    .panel ul li::before {
-        content: "⚡";
-        position: absolute;
-        left: 15px;
-        font-size: 1.5em;
-        filter: drop-shadow(0 0 5px var(--accent));
-    }
-
-    /* Special highlight box */
-    .highlight-box {
-        background: linear-gradient(135deg, rgba(255, 0, 102, 0.2) 0%, rgba(0, 217, 255, 0.2) 100%);
-        border: 2px solid var(--accent);
-        border-radius: 15px;
-        padding: 30px;
-        margin: 30px 0;
-        position: relative;
-        overflow: hidden;
-    }
-
-    .highlight-box::before {
-        content: "🔒";
-        position: absolute;
-        top: -10px;
-        right: -10px;
-        font-size: 8em;
-        opacity: 0.1;
-        transform: rotate(-15deg);
-    }
-
-    .highlight-box strong {
-        font-size: 1.3em;
-        color: var(--accent);
-        text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-        display: block;
-        margin-bottom: 10px;
-    }
-
-    /* Contact box */
-    .contact-box {
-        background: linear-gradient(135deg, var(--primary) 0%, #8B0042 100%);
-        border: 3px solid var(--accent);
-        border-radius: 15px;
-        padding: 30px;
-        margin: 30px 0;
-        box-shadow: 0 10px 30px rgba(255, 0, 102, 0.4);
-    }
-
-    .contact-box strong {
-        font-size: 1.3em;
-        color: var(--accent);
-        display: block;
-        margin-bottom: 15px;
-        font-family: 'Bebas Neue', sans-serif;
-        letter-spacing: 2px;
-    }
-
-    .contact-box ul li {
-        background: rgba(0, 0, 0, 0.3);
-        border-left-color: var(--accent);
-    }
-
-    /* Footer */
-    .footer {
-        text-align: center;
-        padding: 50px 20px;
-        background: linear-gradient(135deg, rgba(10, 14, 39, 0.9) 0%, rgba(5, 7, 15, 0.9) 100%);
-        border-top: 3px solid var(--primary);
-        margin-top: 50px;
-    }
-
-    .footer p {
-        color: var(--gray);
-        margin: 10px 0;
-    }
-
-    .footer strong {
-        color: var(--accent);
-    }
-
-    /* Back to top button */
-    .back-to-top {
-        position: fixed;
-        bottom: 30px;
-        right: 30px;
-        width: 60px;
-        height: 60px;
-        background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
-        border: 3px solid var(--accent);
-        border-radius: 50%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        color: var(--light);
-        text-decoration: none;
-        font-size: 2em;
-        font-weight: bold;
-        box-shadow: 0 5px 20px rgba(255, 0, 102, 0.5);
-        opacity: 0;
-        pointer-events: none;
-        transition: all 0.3s ease;
-        z-index: 1000;
-    }
-
-    .back-to-top.visible {
-        opacity: 1;
-        pointer-events: all;
-    }
-
-    .back-to-top:hover {
-        transform: translateY(-10px) scale(1.1);
-        box-shadow: 0 10px 30px rgba(255, 0, 102, 0.8);
-    }
-
-    /* Responsive */
-    @media (max-width: 768px) {
         .hero h1 {
-            font-size: 3em;
-            letter-spacing: 4px;
+            font-family: 'Bangers', cursive;
+            font-size: 5em;
+            color: var(--light);
+            text-transform: uppercase;
+            letter-spacing: 8px;
+            margin-bottom: 20px;
+            text-shadow: 
+                4px 4px 0px var(--primary),
+                8px 8px 0px rgba(255, 0, 102, 0.3),
+                0 0 30px var(--primary),
+                0 0 60px var(--primary);
+            animation: textGlow 3s ease-in-out infinite alternate;
+        }
+
+        @keyframes textGlow {
+            from { text-shadow: 
+                4px 4px 0px var(--primary),
+                8px 8px 0px rgba(255, 0, 102, 0.3),
+                0 0 30px var(--primary);
+            }
+            to { text-shadow: 
+                4px 4px 0px var(--secondary),
+                8px 8px 0px rgba(0, 217, 255, 0.3),
+                0 0 40px var(--secondary),
+                0 0 80px var(--secondary);
+            }
         }
 
         .subtitle {
-            font-size: 1.5em;
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2em;
+            background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 50%, var(--accent) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            letter-spacing: 4px;
+            margin-bottom: 20px;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 10px 30px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            border: 3px solid var(--accent);
+            border-radius: 50px;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-size: 0.9em;
+            box-shadow: 0 0 20px rgba(255, 0, 102, 0.5);
+            animation: badgePulse 2s ease-in-out infinite;
+        }
+
+        @keyframes badgePulse {
+            0%, 100% { transform: scale(1); box-shadow: 0 0 20px rgba(255, 0, 102, 0.5); }
+            50% { transform: scale(1.05); box-shadow: 0 0 30px rgba(255, 0, 102, 0.8); }
+        }
+
+        /* Comic book style panels */
+        .content-wrapper {
+            display: grid;
+            gap: 40px;
+            margin-bottom: 50px;
         }
 
         .panel {
-            padding: 30px 20px;
+            background: linear-gradient(135deg, rgba(26, 26, 46, 0.9) 0%, rgba(10, 14, 39, 0.9) 100%);
+            border: 3px solid var(--primary);
+            border-radius: 20px;
+            padding: 50px 40px 40px 40px;
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(10px);
+            box-shadow: 
+                0 10px 40px rgba(0, 0, 0, 0.5),
+                0 0 0 1px rgba(255, 0, 102, 0.2),
+                inset 0 0 20px rgba(255, 0, 102, 0.05);
+            transition: all 0.3s ease;
         }
 
-        .panel h2 {
-            font-size: 1.8em;
+        .panel:hover {
+            transform: translateY(-5px);
+            border-color: var(--secondary);
+            box-shadow: 
+                0 15px 50px rgba(0, 0, 0, 0.7),
+                0 0 30px rgba(0, 217, 255, 0.3);
+        }
+
+        .panel::before {
+            content: "";
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            background: linear-gradient(45deg, var(--primary), var(--secondary), var(--accent));
+            z-index: -1;
+            opacity: 0;
+            transition: opacity 0.3s;
+            border-radius: 20px;
+        }
+
+        .panel:hover::before {
+            opacity: 0.2;
+        }
+
+        /* Speed lines effect */
+        .panel::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 200%;
+            height: 200%;
+            background: repeating-linear-gradient(
+                0deg,
+                transparent,
+                transparent 10px,
+                rgba(255, 255, 255, 0.03) 10px,
+                rgba(255, 255, 255, 0.03) 11px
+            );
+            transform: translate(-50%, -50%);
+            pointer-events: none;
         }
 
         .panel-number {
-            width: 50px;
-            height: 50px;
+            position: absolute;
+            top: 15px;
+            left: 30px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            border: 4px solid var(--accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Bangers', cursive;
+            font-size: 2em;
+            color: var(--light);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+
+        .panel h2 {
+            font-family: 'Bebas Neue', sans-serif;
+            font-size: 2.5em;
+            color: var(--accent);
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+            margin-top: 40px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .panel p {
+            font-size: 1.1em;
+            color: var(--gray);
+            line-height: 1.8;
+            margin-bottom: 15px;
+        }
+
+        .panel ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+
+        .panel ul li {
+            padding: 15px 15px 15px 45px;
+            margin: 10px 0;
+            background: rgba(255, 0, 102, 0.1);
+            border-left: 4px solid var(--primary);
+            border-radius: 8px;
+            position: relative;
+            transition: all 0.3s ease;
+            color: var(--light);
+        }
+
+        .panel ul li:hover {
+            background: rgba(0, 217, 255, 0.1);
+            border-left-color: var(--secondary);
+            transform: translateX(10px);
+        }
+
+        .panel ul li::before {
+            content: "⚡";
+            position: absolute;
+            left: 15px;
             font-size: 1.5em;
+            filter: drop-shadow(0 0 5px var(--accent));
         }
-    }
 
-    /* Loading animation */
-    @keyframes slideIn {
-        from {
+        /* Special highlight box */
+        .highlight-box {
+            background: linear-gradient(135deg, rgba(255, 0, 102, 0.2) 0%, rgba(0, 217, 255, 0.2) 100%);
+            border: 2px solid var(--accent);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .highlight-box::before {
+            content: "🔒";
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            font-size: 8em;
+            opacity: 0.1;
+            transform: rotate(-15deg);
+        }
+
+        .highlight-box strong {
+            font-size: 1.3em;
+            color: var(--accent);
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* Contact box */
+        .contact-box {
+            background: linear-gradient(135deg, var(--primary) 0%, #8B0042 100%);
+            border: 3px solid var(--accent);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 30px 0;
+            box-shadow: 0 10px 30px rgba(255, 0, 102, 0.4);
+        }
+
+        .contact-box strong {
+            font-size: 1.3em;
+            color: var(--accent);
+            display: block;
+            margin-bottom: 15px;
+            font-family: 'Bebas Neue', sans-serif;
+            letter-spacing: 2px;
+        }
+
+        .contact-box ul li {
+            background: rgba(0, 0, 0, 0.3);
+            border-left-color: var(--accent);
+        }
+
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(135deg, rgba(10, 14, 39, 0.9) 0%, rgba(5, 7, 15, 0.9) 100%);
+            border-top: 3px solid var(--primary);
+            margin-top: 50px;
+        }
+
+        .footer p {
+            color: var(--gray);
+            margin: 10px 0;
+        }
+
+        .footer strong {
+            color: var(--accent);
+        }
+
+        /* Back to top button */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            border: 3px solid var(--accent);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--light);
+            text-decoration: none;
+            font-size: 2em;
+            font-weight: bold;
+            box-shadow: 0 5px 20px rgba(255, 0, 102, 0.5);
             opacity: 0;
-            transform: translateY(30px);
+            pointer-events: none;
+            transition: all 0.3s ease;
+            z-index: 1000;
         }
-        to {
+
+        .back-to-top.visible {
             opacity: 1;
-            transform: translateY(0);
+            pointer-events: all;
         }
-    }
 
-    .panel {
-        animation: slideIn 0.6s ease-out forwards;
-        opacity: 0;
-    }
+        .back-to-top:hover {
+            transform: translateY(-10px) scale(1.1);
+            box-shadow: 0 10px 30px rgba(255, 0, 102, 0.8);
+        }
 
-    .panel:nth-child(1) { animation-delay: 0.1s; }
-    .panel:nth-child(2) { animation-delay: 0.2s; }
-    .panel:nth-child(3) { animation-delay: 0.3s; }
-    .panel:nth-child(4) { animation-delay: 0.4s; }
-    .panel:nth-child(5) { animation-delay: 0.5s; }
-    .panel:nth-child(6) { animation-delay: 0.6s; }
-    .panel:nth-child(7) { animation-delay: 0.7s; }
-    .panel:nth-child(8) { animation-delay: 0.8s; }
-    .panel:nth-child(9) { animation-delay: 0.9s; }
-</style>
-</head> <body> <!-- Animated Background --> <div class="anime-bg"></div>
-<!-- Floating Particles -->
-<div class="particles" id="particles"></div>
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 3em;
+                letter-spacing: 4px;
+            }
 
-<div class="container">
-    <!-- Hero Section -->
-    <div class="hero">
-        <div class="hero-content">
-            <h1>⚔️ PRIVACY POLICY ⚔️</h1>
-            <p class="subtitle">ANIME MULTIVERSE RNG</p>
-            <div class="badge">🎮 EFFECTIVE APRIL 7, 2026 🎮</div>
-        </div>
-    </div>
+            .subtitle {
+                font-size: 1.5em;
+            }
 
-    <!-- Content Panels -->
-    <div class="content-wrapper">
-        <!-- Panel 1 -->
-        <div class="panel">
-            <div class="panel-number">1</div>
-            <h2>📊 DATA COLLECTED</h2>
-            <p><em>We collect and store the following information to provide our game services:</em></p>
-            <ul>
-                <li>Your Discord ID and username (required for game identification)</li>
-                <li>Your in-game inventory (characters, items, resources, currencies)</li>
-                <li>Your game statistics (level, experience, progression, achievements)</li>
-                <li>Guild membership and contributions (if participating in guild features)</li>
-                <li>Game interaction history (rolls, battles, trades)</li>
-            </ul>
-        </div>
+            .panel {
+                padding: 50px 20px 30px 20px;
+            }
 
-        <!-- Panel 2 -->
-        <div class="panel">
-            <div class="panel-number">2</div>
-            <h2>🎯 USE OF DATA</h2>
-            <p><em>The collected data is used exclusively for the following purposes:</em></p>
-            <ul>
-                <li>Save and restore your in-game progress across sessions</li>
-                <li>Display leaderboards, rankings, and player profiles</li>
-                <li>Enable player interactions (trading, co-op gameplay, PvP battles)</li>
-                <li>Provide personalized game experiences and recommendations</li>
-                <li>Improve game balance and detect cheating or abuse</li>
-                <li>Send important game updates and announcements</li>
-            </ul>
-        </div>
+            .panel h2 {
+                font-size: 1.8em;
+            }
 
-        <!-- Panel 3 -->
-        <div class="panel">
-            <div class="panel-number">3</div>
-            <h2>🚫 DATA SHARING</h2>
-            <div class="highlight-box">
-                <strong>🔒 YOUR DATA IS NEVER SHARED, SOLD, OR TRANSFERRED TO THIRD PARTIES!</strong>
-                <p>We protect your privacy with the power of a thousand anime heroes!</p>
+            .panel-number {
+                width: 50px;
+                height: 50px;
+                font-size: 1.5em;
+                top: 12px;
+                left: 20px;
+            }
+        }
+
+        /* Loading animation */
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .panel {
+            animation: slideIn 0.6s ease-out forwards;
+            opacity: 0;
+        }
+
+        .panel:nth-child(1) { animation-delay: 0.1s; }
+        .panel:nth-child(2) { animation-delay: 0.2s; }
+        .panel:nth-child(3) { animation-delay: 0.3s; }
+        .panel:nth-child(4) { animation-delay: 0.4s; }
+        .panel:nth-child(5) { animation-delay: 0.5s; }
+        .panel:nth-child(6) { animation-delay: 0.6s; }
+        .panel:nth-child(7) { animation-delay: 0.7s; }
+        .panel:nth-child(8) { animation-delay: 0.8s; }
+        .panel:nth-child(9) { animation-delay: 0.9s; }
+    </style>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="anime-bg"></div>
+
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero">
+            <div class="hero-content">
+                <h1>⚔️ PRIVACY POLICY ⚔️</h1>
+                <p class="subtitle">ANIME MULTIVERSE RNG</p>
+                <div class="badge">🎮 EFFECTIVE APRIL 7, 2026 🎮</div>
             </div>
-            <p>
-                We do not sell, trade, rent, or transfer your personal information to external parties 
-                for marketing or any other purposes. Your data remains secure within our game system 
-                and is only accessible to authorized game administrators for support purposes.
-            </p>
-            <p>
-                <strong>⚠️ Exception:</strong> We may disclose data only if required by law or to protect 
-                the rights, property, or safety of our users.
-            </p>
         </div>
 
-        <!-- Panel 4 -->
-        <div class="panel">
-            <div class="panel-number">4</div>
-            <h2>🛡️ SECURITY</h2>
-            <p>
-                All data is stored in a secure <strong>PostgreSQL</strong> database with industry-standard 
-                encryption and protection measures. We implement:
-            </p>
-            <ul>
-                <li>Encrypted database connections (SSL/TLS)</li>
-                <li>Regular security audits and updates</li>
-                <li>Access controls and authentication systems</li>
-                <li>Automated backups to prevent data loss</li>
-            </ul>
-            <p>
-                While we strive to protect your information with the strength of a legendary SSR character, 
-                no method of transmission over the internet is 100% secure.
-            </p>
-        </div>
-
-        <!-- Panel 5 -->
-        <div class="panel">
-            <div class="panel-number">5</div>
-            <h2>⏳ DATA RETENTION</h2>
-            <p>
-                We retain your game data as long as your account remains active. Inactive accounts 
-                (no activity for 12+ months) may have their data archived or deleted to maintain 
-                system performance. Like an abandoned anime protagonist's training ground!
-            </p>
-        </div>
-
-        <!-- Panel 6 -->
-        <div class="panel">
-            <div class="panel-number">6</div>
-            <h2>✋ YOUR RIGHTS & DATA DELETION</h2>
-            <p>
-                You have the right to request access to, correction of, or deletion of your personal 
-                data at any time. To exercise these rights, please contact us:
-            </p>
-            <div class="contact-box">
-                <strong>📬 CONTACT INFORMATION</strong>
+        <!-- Content Panels -->
+        <div class="content-wrapper">
+            <!-- Panel 1 -->
+            <div class="panel">
+                <div class="panel-number">1</div>
+                <h2>📊 DATA COLLECTED</h2>
+                <p><em>We collect and store the following information to provide our game services:</em></p>
                 <ul>
-                    <li>Discord: <strong>juro6666</strong></li>
-                    <li>Email: <strong>animemultiverserng@gmail.com</strong></li>
-                    <li>Support Server: <strong>https://discord.gg/animerpg</strong></li>
+                    <li>Your Discord ID and username (required for game identification)</li>
+                    <li>Your in-game inventory (characters, items, resources, currencies)</li>
+                    <li>Your game statistics (level, experience, progression, achievements)</li>
+                    <li>Guild membership and contributions (if participating in guild features)</li>
+                    <li>Game interaction history (rolls, battles, trades)</li>
                 </ul>
             </div>
-            <p>
-                We will process your request within <strong>30 days</strong>. Upon data deletion, 
-                all your game progress, characters, and items will be permanently removed and cannot be recovered.
-                It's like a character getting erased from existence! 💀
-            </p>
+
+            <!-- Panel 2 -->
+            <div class="panel">
+                <div class="panel-number">2</div>
+                <h2>🎯 USE OF DATA</h2>
+                <p><em>The collected data is used exclusively for the following purposes:</em></p>
+                <ul>
+                    <li>Save and restore your in-game progress across sessions</li>
+                    <li>Display leaderboards, rankings, and player profiles</li>
+                    <li>Enable player interactions (trading, co-op gameplay, PvP battles)</li>
+                    <li>Provide personalized game experiences and recommendations</li>
+                    <li>Improve game balance and detect cheating or abuse</li>
+                    <li>Send important game updates and announcements</li>
+                </ul>
+            </div>
+
+            <!-- Panel 3 -->
+            <div class="panel">
+                <div class="panel-number">3</div>
+                <h2>🚫 DATA SHARING</h2>
+                <div class="highlight-box">
+                    <strong>🔒 YOUR DATA IS NEVER SHARED, SOLD, OR TRANSFERRED TO THIRD PARTIES!</strong>
+                    <p>We protect your privacy with the power of a thousand anime heroes!</p>
+                </div>
+                <p>
+                    We do not sell, trade, rent, or transfer your personal information to external parties 
+                    for marketing or any other purposes. Your data remains secure within our game system 
+                    and is only accessible to authorized game administrators for support purposes.
+                </p>
+                <p>
+                    <strong>⚠️ Exception:</strong> We may disclose data only if required by law or to protect 
+                    the rights, property, or safety of our users.
+                </p>
+            </div>
+
+            <!-- Panel 4 -->
+            <div class="panel">
+                <div class="panel-number">4</div>
+                <h2>🛡️ SECURITY</h2>
+                <p>
+                    All data is stored in a secure <strong>PostgreSQL</strong> database with industry-standard 
+                    encryption and protection measures. We implement:
+                </p>
+                <ul>
+                    <li>Encrypted database connections (SSL/TLS)</li>
+                    <li>Regular security audits and updates</li>
+                    <li>Access controls and authentication systems</li>
+                    <li>Automated backups to prevent data loss</li>
+                </ul>
+                <p>
+                    While we strive to protect your information with the strength of a legendary SSR character, 
+                    no method of transmission over the internet is 100% secure.
+                </p>
+            </div>
+
+            <!-- Panel 5 -->
+            <div class="panel">
+                <div class="panel-number">5</div>
+                <h2>⏳ DATA RETENTION</h2>
+                <p>
+                    We retain your game data as long as your account remains active. Inactive accounts 
+                    (no activity for 12+ months) may have their data archived or deleted to maintain 
+                    system performance. Like an abandoned anime protagonist's training ground!
+                </p>
+            </div>
+
+            <!-- Panel 6 -->
+            <div class="panel">
+                <div class="panel-number">6</div>
+                <h2>✋ YOUR RIGHTS & DATA DELETION</h2>
+                <p>
+                    You have the right to request access to, correction of, or deletion of your personal 
+                    data at any time. To exercise these rights, please contact us:
+                </p>
+                <div class="contact-box">
+                    <strong>📬 CONTACT INFORMATION</strong>
+                    <ul>
+                        <li>Discord: <strong>juro6666</strong></li>
+                        <li>Email: <strong>animemultiverserng@gmail.com</strong></li>
+                        <li>Support Server: <strong>https://discord.gg/animerpg</strong></li>
+                    </ul>
+                </div>
+                <p>
+                    We will process your request within <strong>30 days</strong>. Upon data deletion, 
+                    all your game progress, characters, and items will be permanently removed and cannot be recovered.
+                    It's like a character getting erased from existence! 💀
+                </p>
+            </div>
+
+            <!-- Panel 7 -->
+            <div class="panel">
+                <div class="panel-number">7</div>
+                <h2>👶 CHILDREN'S PRIVACY</h2>
+                <p>
+                    Our bot is designed for users aged <strong>13 and above</strong>, in compliance with Discord's Terms of Service. 
+                    We do not knowingly collect data from children under 13. If we become aware of such data collection, 
+                    we will delete it immediately. No underage adventurers allowed! 🚸
+                </p>
+            </div>
+
+            <!-- Panel 8 -->
+            <div class="panel">
+                <div class="panel-number">8</div>
+                <h2>🔄 CHANGES TO THIS POLICY</h2>
+                <p>
+                    We reserve the right to update this privacy policy as needed to reflect changes in our 
+                    practices or for legal compliance. Like a character's power-up arc, we evolve!
+                </p>
+                <p>
+                    Significant changes will be announced in our Discord server and indicated by updating 
+                    the "Last updated" date at the bottom of this page.
+                </p>
+                <p>
+                    Continued use of the bot after policy updates constitutes acceptance of the revised terms.
+                </p>
+            </div>
+
+            <!-- Panel 9 -->
+            <div class="panel">
+                <div class="panel-number">9</div>
+                <h2>💬 CONTACT US</h2>
+                <p>
+                    If you have any questions, concerns, or requests regarding this privacy policy or your data, 
+                    please don't hesitate to contact us using the information provided in Section 6.
+                </p>
+                <p>
+                    We're here to help you on your adventure! 🌟
+                </p>
+            </div>
         </div>
 
-        <!-- Panel 7 -->
-        <div class="panel">
-            <div class="panel-number">7</div>
-            <h2>👶 CHILDREN'S PRIVACY</h2>
-            <p>
-                Our bot is designed for users aged <strong>13 and above</strong>, in compliance with Discord's Terms of Service. 
-                We do not knowingly collect data from children under 13. If we become aware of such data collection, 
-                we will delete it immediately. No underage adventurers allowed! 🚸
+        <!-- Footer -->
+        <div class="footer">
+            <p><strong>⏰ LAST UPDATED:</strong> APRIL 7, 2026</p>
+            <p style="margin-top: 15px; font-size: 1.2em; color: var(--accent);">
+                🎮 ANIME MULTIVERSE RNG - DISCORD RPG BOT 🎮
             </p>
-        </div>
-
-        <!-- Panel 8 -->
-        <div class="panel">
-            <div class="panel-number">8</div>
-            <h2>🔄 CHANGES TO THIS POLICY</h2>
-            <p>
-                We reserve the right to update this privacy policy as needed to reflect changes in our 
-                practices or for legal compliance. Like a character's power-up arc, we evolve!
+            <p style="margin-top: 15px; font-size: 0.9em; color: var(--gray);">
+                This bot is not affiliated with Discord Inc.
             </p>
-            <p>
-                Significant changes will be announced in our Discord server and indicated by updating 
-                the "Last updated" date at the bottom of this page.
-            </p>
-            <p>
-                Continued use of the bot after policy updates constitutes acceptance of the revised terms.
-            </p>
-        </div>
-
-        <!-- Panel 9 -->
-        <div class="panel">
-            <div class="panel-number">9</div>
-            <h2>💬 CONTACT US</h2>
-            <p>
-                If you have any questions, concerns, or requests regarding this privacy policy or your data, 
-                please don't hesitate to contact us using the information provided in Section 6.
-            </p>
-            <p>
-                We're here to help you on your adventure! 🌟
+            <p style="margin-top: 10px; font-size: 0.85em; color: var(--gray);">
+                Made with ❤️ for the anime community
             </p>
         </div>
     </div>
 
-    <!-- Footer -->
-    <div class="footer">
-        <p><strong>⏰ LAST UPDATED:</strong> APRIL 7, 2026</p>
-        <p style="margin-top: 15px; font-size: 1.2em; color: var(--accent);">
-            🎮 ANIME MULTIVERSE RNG - DISCORD RPG BOT 🎮
-        </p>
-        <p style="margin-top: 15px; font-size: 0.9em; color: var(--gray);">
-            This bot is not affiliated with Discord Inc.
-        </p>
-        <p style="margin-top: 10px; font-size: 0.85em; color: var(--gray);">
-            Made with ❤️ for the anime community
-        </p>
-    </div>
-</div>
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">↑</a>
 
-<!-- Back to Top Button -->
-<a href="#" class="back-to-top" id="backToTop">↑</a>
-
-<script>
-    // Generate floating particles
-    const particlesContainer = document.getElementById('particles');
-    for (let i = 0; i < 30; i++) {
-        const particle = document.createElement('div');
-        particle.className = 'particle';
-        particle.style.left = Math.random() * 100 + '%';
-        particle.style.animationDelay = Math.random() * 15 + 's';
-        particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
-        particlesContainer.appendChild(particle);
-    }
-
-    // Back to top functionality
-    const backToTop = document.getElementById('backToTop');
-    
-    window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 300) {
-            backToTop.classList.add('visible');
-        } else {
-            backToTop.classList.remove('visible');
+    <script>
+        // Generate floating particles
+        const particlesContainer = document.getElementById('particles');
+        for (let i = 0; i < 30; i++) {
+            const particle = document.createElement('div');
+            particle.className = 'particle';
+            particle.style.left = Math.random() * 100 + '%';
+            particle.style.animationDelay = Math.random() * 15 + 's';
+            particle.style.animationDuration = (Math.random() * 10 + 10) + 's';
+            particlesContainer.appendChild(particle);
         }
-    });
-    
-    backToTop.addEventListener('click', (e) => {
-        e.preventDefault();
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
+
+        // Back to top functionality
+        const backToTop = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
         });
-    });
-</script>
-</body> </html> Exit code: 0
+        
+        backToTop.addEventListener('click', (e) => {
+            e.preventDefault();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+    </script>
+</body>
+</html>
